@@ -1,0 +1,58 @@
+body {
+    font-family:"kohinoor telugu";
+    
+    max-width: 60rem;
+    background-color: black;
+}
+
+.gallery {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between 5rem;
+    position: relative;
+    left:20rem;
+    top:10rem;
+    margin-top:5rem; 
+}
+
+.item {
+    max-width:40rem;
+    margin:2.5rem;
+    object-fit:cover;
+    box-shadow: black;
+    /* border-style: dashed;
+    border-color: grey; */
+}
+
+h1 {
+    color:white;
+    font-family:"kohinoor telugu";
+    font-style:light;
+    font-size:20px;
+    position:absolute;
+    top:10rem;
+    left:15rem;
+}
+
+#description {
+    max-width:26rem;
+    position:relative;
+    margin: 3rem;
+    font-size: 10pt;
+    color:white;
+}
+
+.medium {
+    color:white;
+    font-size:12px;
+    line-height:7px;
+    position:absolute;
+    top:12rem;
+    left:15rem;
+}
+
+a {
+    text-decoration:none;
+    color:white;
+}

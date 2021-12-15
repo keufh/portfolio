@@ -1,0 +1,35 @@
+.intro {
+    color:darkolivegreen;
+    font-family:"kohinoor telugu";
+    font-size: 14px;
+    max-width:12rem;
+
+    position:absolute;
+    top:12rem;
+    left:15rem;
+}
+
+div {
+    position:absolute;
+    bottom:10rem;
+    right:14rem;
+}
+
+h1 {
+    font-family:Balega LT std;
+    color:darkolivegreen;
+}
+
+.links {
+    max-width:3rem;
+    color:darkolivegreen;
+    font-family:"kohinoor telugu";
+    font-size: 14px;
+    line-height: 25px;
+    margin-left:4px;
+    margin-top:-20px;
+}
+
+a {
+    color:darkolivegreen;
+}

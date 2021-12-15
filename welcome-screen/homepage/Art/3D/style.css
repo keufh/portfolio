@@ -1,0 +1,43 @@
+.guide {
+    position:absolute;
+    top:7rem;
+    left:10rem;
+    color:darkolivegreen;
+    font-family:"kohinoor telugu";
+}
+
+a {
+    color:black;
+    text-decoration:none;
+}
+
+.links {
+    max-width:1rem;
+    margin-left:1px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between 5rem;
+    position: relative;
+    top:11.5rem;
+    left:15rem;
+   
+}
+
+.item {
+    max-width:15rem;
+    height: 300px;
+    margin:2.5rem;
+    object-fit:cover;
+}
+
+.medium {
+    color:white;
+    font-size:12px;
+    line-height:7px;
+    position:absolute;
+    top:12rem;
+    left:15rem;
+}

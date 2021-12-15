@@ -1,0 +1,94 @@
+#myvideo {
+    position:fixed;
+    right:0;
+    bottom:0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+a {
+    color:white;
+    text-decoration:none;
+}
+
+.body {
+    background-image:url(images/background3.png);
+    background-size:cover;
+    max-width:150rem;
+    position: absolute;   
+}
+
+#midground {
+    position:absolute;
+    max-width:70rem;
+    top:-5rem;
+    left:-5rem;
+    z-index: -1;
+    /* opacity: 60%; */
+    mix-blend-mode: difference;
+    
+}
+
+.page {
+    position: relative;
+    top: 12rem;
+    left: 15rem;
+    z-index:index 2;
+}
+
+
+h1 {
+    max-width: 200px;
+    font-family: "kohinoor telugu";
+    font-size: 60px;
+    color: olive;
+    line-height: 60px;
+
+}
+
+.main-navigation {
+    max-width: 40px;
+    color:olive;
+    font-family:"kohinoor telugu";
+    font-size: 13px;
+}
+
+.gallery {
+    margin-top: 20rem;
+    margin-bottom: 15rem;
+    display:block;
+    text-align: center;
+    justify-content: center;
+    max-width: 50rem;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: .5em;
+    padding: .5em;
+    z-index: 2;
+    position:absolute;
+}
+
+
+#litho1 {
+    max-width: 50rem;
+    align-self: center;
+    margin-top:8rem;
+}
+
+#photo {
+    width:100%;
+    max-width: 50rem;
+}
+
+#ear {
+    max-width:50rem;
+    margin-top:8rem;
+}
+
+p {
+    font-style:italic;
+    color:white;
+    font-size:12pt;
+    text-align: center;
+    
+}
